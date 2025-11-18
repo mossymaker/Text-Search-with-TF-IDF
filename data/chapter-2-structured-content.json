@@ -1,0 +1,713 @@
+[
+    {
+        "section_id": "2.I",
+        "section_title": "Getting Sensors Connected to Graphical Analysis",
+        "content": "Vernier Go Direct sensors can connect via Bluetooth wireless technology or USB. Wired LabQuest sensors connect via USB interfaces.",
+        "subsections": [
+            {
+                "subsection_id": "2.I.1",
+                "subsection_title": "Connecting via Bluetooth",
+                "content": "Go Direct sensors connect one-to-one via Bluetooth to computers, Chromebooks, smartphones, or tablets.",
+                "keywords": [
+                    "bluetooth",
+                    "wireless",
+                    "connect",
+                    "sensor"
+                ],
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Make sure your sensor is powered on",
+                        "ui_element": "Sensor power button"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "From the Sensors box, locate your sensor in the Discovered Wireless Devices list using its serial number",
+                        "ui_element": "Discovered Wireless Devices list"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Click or tap Connect to connect to your sensor",
+                        "ui_element": "Connect button"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.I.2",
+                "subsection_title": "Using Proximity Connect",
+                "content": "Automatically connect to the sensor with the strongest signal, typically the closest sensor.",
+                "keywords": [
+                    "proximity",
+                    "connect",
+                    "wireless",
+                    "sensor",
+                    "automatic"
+                ],
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Ensure your sensor is powered on and near your device",
+                        "tip": "Signal strength may vary; proximity doesn't always guarantee strongest signal"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Click or tap Proximity Connect to initiate automatic connection",
+                        "ui_element": "Proximity Connect button"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Repeat the process to connect additional sensors one at a time",
+                        "tip": "Connect one sensor at a time using this method"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.I.3",
+                "subsection_title": "Connecting via USB",
+                "content": "USB sensors and Go Direct sensors can connect directly to computers and Chromebooks via USB cable.",
+                "keywords": [
+                    "usb",
+                    "wired",
+                    "cable",
+                    "connect",
+                    "sensor"
+                ],
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Launch Graphical Analysis and select Sensor Data Collection",
+                        "ui_element": "Sensor Data Collection button"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Connect the sensor to your computer or Chromebook via USB",
+                        "tip": "If using wired sensors, connect through an interface like Go!Link, LabQuest Mini, or LabQuest Stream"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Configure sensor channels if your sensor has multiple channels",
+                        "ui_element": "Sensor Channels configuration"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.I.4",
+                "subsection_title": "Setting Up Multiple Sensor Channels",
+                "content": "Some Go Direct sensors have multiple sensor channels with default configurations.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap Sensor Channels to modify the configuration",
+                        "ui_element": "Sensor Channels details"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Select the desired sensor channels for your experiment",
+                        "tip": "Some channels cannot be used simultaneously"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Click Done to continue with your experiment",
+                        "ui_element": "Done button"
+                    }
+                ]
+            }
+        ],
+        "related_sections": [
+            "1.II",
+            "2.II"
+        ],
+        "keywords": [
+            "connect",
+            "sensor",
+            "bluetooth",
+            "usb",
+            "wireless",
+            "proximity",
+            "go direct"
+        ]
+    },
+    {
+        "section_id": "2.II",
+        "section_title": "Configuring Sensors",
+        "content": "Sensor meters show current readings and provide access to calibration, zeroing, reversing, and unit selection.",
+        "subsections": [
+            {
+                "subsection_id": "2.II.1",
+                "subsection_title": "Calibrate",
+                "content": "Most sensors use factory calibration, but some require custom calibration.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap a sensor meter to access configuration tools",
+                        "ui_element": "Sensor meter"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Choose Calibrate to initiate sensor calibration",
+                        "ui_element": "Calibrate option",
+                        "tip": "Detailed calibration instructions are in sensor user manuals at www.vernier.com/manuals"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.II.2",
+                "subsection_title": "Zero",
+                "content": "Set the current sensor reading to zero, creating an offset for future readings.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap the sensor meter",
+                        "ui_element": "Sensor meter"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Choose Zero to set current reading to zero",
+                        "ui_element": "Zero option",
+                        "tip": "Zeroing does not affect already collected data"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.II.3",
+                "subsection_title": "Reverse",
+                "content": "Swap the sign of sensor readings for sensors that read positive and negative values.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap the sensor meter",
+                        "ui_element": "Sensor meter"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Turn on Reverse to swap the sign of readings",
+                        "ui_element": "Reverse toggle",
+                        "tip": "Previously collected data are not changed"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.II.4",
+                "subsection_title": "Units",
+                "content": "Some sensors can display data in different units of measure.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap the sensor meter",
+                        "ui_element": "Sensor meter"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Choose the desired unit from the Units dropdown menu",
+                        "ui_element": "Units dropdown",
+                        "tip": "Choosing a new unit changes all existing and subsequent data"
+                    }
+                ]
+            }
+        ],
+        "related_sections": [
+            "2.I"
+        ],
+        "keywords": [
+            "configure",
+            "calibrate",
+            "zero",
+            "reverse",
+            "units",
+            "sensor settings"
+        ]
+    },
+    {
+        "section_id": "2.III",
+        "section_title": "Modifying the Data-Collection Settings",
+        "content": "Configure data collection parameters including mode, rate, duration, and triggering options.",
+        "subsections": [
+            {
+                "subsection_id": "2.III.1",
+                "subsection_title": "Mode: Time Based",
+                "content": "Time-based data collection records sensor readings at regular time intervals.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap Mode to open Data Collection Settings",
+                        "ui_element": "Mode button"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Select Time Based mode (default for most sensors)",
+                        "ui_element": "Time Based option"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Set Time Units (seconds, milliseconds, minutes, or hours)",
+                        "ui_element": "Time Units dropdown"
+                    },
+                    {
+                        "step_number": 4,
+                        "instruction": "Adjust Rate (samples per time unit) or Interval (time between samples)",
+                        "ui_element": "Rate/Interval fields",
+                        "tip": "Rate and Interval are reciprocals; changing one automatically changes the other"
+                    },
+                    {
+                        "step_number": 5,
+                        "instruction": "Set collection duration or choose to end manually",
+                        "ui_element": "End Collection settings"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.III.2",
+                "subsection_title": "Start Collection Options",
+                "content": "Choose to start collection manually or on a triggering event.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "For manual start, select Manually option (default)",
+                        "ui_element": "Manually option",
+                        "tip": "Click Collect button to start"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "For triggered start, select On a Triggering Event",
+                        "ui_element": "On a Triggering Event option"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Choose the sensor and set the trigger threshold value",
+                        "ui_element": "Trigger settings"
+                    },
+                    {
+                        "step_number": 4,
+                        "instruction": "Select whether trigger activates on increasing or decreasing past threshold",
+                        "ui_element": "Trigger direction"
+                    },
+                    {
+                        "step_number": 5,
+                        "instruction": "Optionally collect data points before the trigger (negative time values)",
+                        "ui_element": "Pre-trigger collection option"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.III.3",
+                "subsection_title": "Mode: Event Based",
+                "content": "Event-based collection uses an attribute other than time as the independent variable.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap Mode and select Event Based",
+                        "ui_element": "Event Based option"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Choose between Events with Entry (prompts for value) or Selected Events (auto-numbered)",
+                        "ui_element": "Event Mode options"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Optionally enable Average over 10 seconds for averaged readings",
+                        "ui_element": "Average over 10 seconds checkbox"
+                    },
+                    {
+                        "step_number": 4,
+                        "instruction": "Rename the Event column and provide units as needed",
+                        "ui_element": "Event column settings"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.III.4",
+                "subsection_title": "Mode: Drop Counting",
+                "content": "Drop Counting mode records data points each time a drop is detected by the Drop Counter.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Connect a Drop Counter sensor",
+                        "tip": "Drop Counting is the default mode when a Drop Counter is connected"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Ensure at least one other sensor is connected for data collection",
+                        "tip": "Drop Counting requires a Drop Counter plus at least one other sensor"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.III.5",
+                "subsection_title": "Mode: Photogate Timing",
+                "content": "Photogate Timing mode records time-based measurements as objects pass through photogates.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Connect a photogate sensor (wired BTD Photogate, Go Direct Photogate, or Projectile Launcher)",
+                        "tip": "Photogate Timing is the default mode when these sensors are connected"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Select measurement type: Speed Through Gate, Linear Motion, Angular Motion, Timer/Period, or Projectile Launcher",
+                        "ui_element": "Measurement type options"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Configure parameters based on measurement type (object width, gate separation, spacing, etc.)",
+                        "ui_element": "Photogate configuration fields"
+                    }
+                ]
+            }
+        ],
+        "related_sections": [
+            "2.V"
+        ],
+        "keywords": [
+            "mode",
+            "time based",
+            "event based",
+            "drop counting",
+            "photogate",
+            "rate",
+            "duration",
+            "trigger"
+        ]
+    },
+    {
+        "section_id": "2.IV",
+        "section_title": "Setting Up the Display (Graph, Data Table, and Meters)",
+        "content": "Graphical Analysis automatically displays views based on experiment type and connected sensors. Customize using View Options.",
+        "subsections": [
+            {
+                "subsection_id": "2.IV.1",
+                "subsection_title": "Single Display Element",
+                "content": "Display only graphs, data table, or meters for a focused view.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap View Options",
+                        "ui_element": "View Options button"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Select 1 Graph, 2 Graphs, 3 Graphs, Table, or Meter",
+                        "ui_element": "Display options",
+                        "tip": "1 Graph is default for time-based data with single sensor"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.IV.2",
+                "subsection_title": "Two Display Elements",
+                "content": "Show two elements side-by-side with adjustable split.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap View Options",
+                        "ui_element": "View Options button"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Select combinations like Graph and Data Table, or Graph and Meter",
+                        "ui_element": "Display combinations",
+                        "tip": "Drag the resize handle to adjust the split between elements"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.IV.3",
+                "subsection_title": "Three Display Elements",
+                "content": "Display graph, data table, and meters simultaneously.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap View Options",
+                        "ui_element": "View Options button"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Select Graph, Data Table, and Meter",
+                        "ui_element": "All three elements option",
+                        "tip": "Graph displays on left; table and meters split vertically on right"
+                    }
+                ]
+            }
+        ],
+        "related_sections": [
+            "4.III",
+            "5"
+        ],
+        "keywords": [
+            "display",
+            "view",
+            "graph",
+            "table",
+            "meter",
+            "layout"
+        ]
+    },
+    {
+        "section_id": "2.V",
+        "section_title": "Collecting Data",
+        "content": "Start and stop data collection, and collect multiple data sets for comparison.",
+        "subsections": [
+            {
+                "subsection_id": "2.V.1",
+                "subsection_title": "Time-Based Data Collection",
+                "content": "Collect sensor data at regular time intervals.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap Collect to start data collection",
+                        "ui_element": "Collect button",
+                        "tip": "Use space bar on keyboard to start/stop while GA has focus"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Click or tap Stop to end collection, or wait for automatic end",
+                        "ui_element": "Stop button"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Click or tap Zoom to scale graph to fit all data",
+                        "ui_element": "Zoom button"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.V.2",
+                "subsection_title": "Collecting Multiple Data Sets",
+                "content": "Collect additional data sets for comparison.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap Collect again after completing first data set",
+                        "ui_element": "Collect button",
+                        "tip": "Original data set is saved automatically"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "To plot original data, click y-axis label and turn on columns from desired data set",
+                        "ui_element": "Y-axis label"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.V.3",
+                "subsection_title": "Event Based Data Collection",
+                "content": "Collect data points based on events rather than time.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap Collect to enable Keep Point button",
+                        "ui_element": "Collect button"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Click or tap Keep Point when ready to record a data point",
+                        "ui_element": "Keep Point button"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Enter the Event value if using Events with Entry mode",
+                        "ui_element": "Keep Point dialog",
+                        "tip": "Sensor reading at Keep Point time is recorded"
+                    },
+                    {
+                        "step_number": 4,
+                        "instruction": "Continue until all data points collected, then click Stop",
+                        "ui_element": "Stop button"
+                    }
+                ]
+            }
+        ],
+        "related_sections": [
+            "2.III",
+            "6"
+        ],
+        "keywords": [
+            "collect",
+            "data collection",
+            "time based",
+            "event based",
+            "multiple data sets",
+            "keep point"
+        ]
+    },
+    {
+        "section_id": "2.VI",
+        "section_title": "Adding a Prediction",
+        "content": "Use the free-hand sketching tool to add predictions before collecting data.",
+        "subsections": [
+            {
+                "subsection_id": "2.VI.1",
+                "subsection_title": "Creating a Prediction",
+                "content": "Draw a prediction on the graph to compare with actual data.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap Graph Tools and choose Add Prediction",
+                        "ui_element": "Add Prediction option",
+                        "tip": "Graph expands to full screen while prediction tool is active"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Click-and-drag or touch-and-drag to sketch your prediction",
+                        "ui_element": "Graph canvas"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Name the prediction if desired",
+                        "ui_element": "Prediction name field"
+                    },
+                    {
+                        "step_number": 4,
+                        "instruction": "Click Apply to add prediction to graph",
+                        "ui_element": "Apply button",
+                        "tip": "Drag again to redraw if you don't like first attempt"
+                    },
+                    {
+                        "step_number": 5,
+                        "instruction": "Collect data to compare with prediction",
+                        "ui_element": "Collect button"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.VI.2",
+                "subsection_title": "Managing Predictions",
+                "content": "Hide or delete predictions as needed.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "To hide, click y-axis label and turn off the prediction",
+                        "ui_element": "Y-axis label"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "To delete, click y-axis label, then Other Options next to prediction, and choose Delete Prediction",
+                        "ui_element": "Delete Prediction option"
+                    }
+                ]
+            }
+        ],
+        "related_sections": [
+            "6"
+        ],
+        "keywords": [
+            "prediction",
+            "sketch",
+            "graph",
+            "forecast"
+        ]
+    },
+    {
+        "section_id": "2.VII",
+        "section_title": "Graph Matching with Motion Sensors",
+        "content": "Create position or velocity targets to match with your motion.",
+        "subsections": [
+            {
+                "subsection_id": "2.VII.1",
+                "subsection_title": "Position Match",
+                "content": "Match your motion to a position vs. time target graph.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Connect a Motion Detector, Motion Encoder, or Sensor Cart",
+                        "tip": "Add Graph Match is only available with motion sensors"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Click or tap Graph Tools and choose Add Graph Match",
+                        "ui_element": "Add Graph Match option"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Choose Position target",
+                        "ui_element": "Position option",
+                        "tip": "Position match is good for students new to graph matching"
+                    },
+                    {
+                        "step_number": 4,
+                        "instruction": "Start data collection and move to match the displayed graph",
+                        "ui_element": "Collect button",
+                        "tip": "Repeat collection as often as desired"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.VII.2",
+                "subsection_title": "Velocity Match",
+                "content": "Match your motion to a velocity vs. time target graph.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap Graph Tools and choose Add Graph Match",
+                        "ui_element": "Add Graph Match option"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Choose Velocity target",
+                        "ui_element": "Velocity option"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Start data collection and move to match constant velocity segments",
+                        "ui_element": "Collect button"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "2.VII.3",
+                "subsection_title": "Managing Graph Match Targets",
+                "content": "Hide or delete graph match targets.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "To hide, click y-axis label and turn off the Graph Match target",
+                        "ui_element": "Y-axis label"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "To delete, click y-axis label, then Other Options next to target, and choose Delete Graph Match",
+                        "ui_element": "Delete Graph Match option"
+                    }
+                ]
+            }
+        ],
+        "related_sections": [
+            "2.V"
+        ],
+        "keywords": [
+            "graph match",
+            "motion sensor",
+            "position",
+            "velocity",
+            "match"
+        ]
+    },
+    {
+        "section_id": "2.VIII",
+        "section_title": "Analyzing Your Data",
+        "content": "See Chapter 6 for detailed information on analyzing collected sensor data.",
+        "subsections": [
+            {
+                "subsection_id": "2.VIII.1",
+                "subsection_title": "Data Analysis Reference",
+                "content": "Sensor data can be analyzed using tools in Chapter 6.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Refer to Chapter 6 for complete data analysis options",
+                        "tip": "Analysis tools include examine, statistics, curve fits, tangent, and integral"
+                    }
+                ]
+            }
+        ],
+        "related_sections": [
+            "6"
+        ],
+        "keywords": [
+            "analysis",
+            "examine",
+            "statistics",
+            "curve fit"
+        ]
+    }
+]

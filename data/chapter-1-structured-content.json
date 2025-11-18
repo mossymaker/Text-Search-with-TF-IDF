@@ -1,0 +1,497 @@
+[
+    {
+        "section_id": "1.I",
+        "section_title": "Downloading Graphical Analysis",
+        "content": "Download Graphical Analysis from the Vernier website or the appropriate web store. The app is available for Windows and macOS computers, Chrome computing devices, iOS and iPadOS devices, and Android devices.",
+        "subsections": [
+            {
+                "subsection_id": "1.I.1",
+                "subsection_title": "Download Sources",
+                "content": "Graphical Analysis can be downloaded from different sources depending on your platform.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "For Windows and macOS computers, download from the Vernier website at www.vernier.com/graphical-analysis",
+                        "ui_element": "Vernier website download page"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "For Chrome computing devices, download from the Chrome Web Store",
+                        "ui_element": "Chrome Web Store"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "For iOS and iPadOS devices, download from the App Store",
+                        "ui_element": "Apple App Store"
+                    },
+                    {
+                        "step_number": 4,
+                        "instruction": "For Android devices, download from Google Play",
+                        "ui_element": "Google Play Store"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "1.I.2",
+                "subsection_title": "Licensing Information",
+                "content": "Graphical Analysis is a free app for computers and mobile devices. Graphical Analysis Pro is a subscription-based set of advanced features.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Graphical Analysis is free for Windows and macOS computers with unlimited installations",
+                        "tip": "No license key required for basic Graphical Analysis"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Graphical Analysis is free for Chrome, iOS, iPadOS, and Android through respective web stores",
+                        "tip": "Terms and licensing determined by the web stores"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Graphical Analysis Pro features require a subscription and are licensed for devices owned or used by students and faculty of the purchasing school or college department",
+                        "tip": "Transferring the license key outside the school or college department is prohibited"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "1.I.3",
+                "subsection_title": "Privacy Statement",
+                "content": "Graphical Analysis and Graphical Analysis Pro comply with COPPA, SOPIPA, and FERPA regulations.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Graphical Analysis does not collect, request, share, or store any personal information from students or instructors",
+                        "tip": "Your data stays on your device"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Graphical Analysis does not display advertisements in the app",
+                        "tip": "Ad-free experience for all users"
+                    }
+                ]
+            }
+        ],
+        "related_sections": [
+            "8.I"
+        ],
+        "keywords": [
+            "download",
+            "install",
+            "license",
+            "privacy",
+            "platform",
+            "requirements"
+        ]
+    },
+    {
+        "section_id": "1.II",
+        "section_title": "Launching Graphical Analysis for the First Time",
+        "content": "When Graphical Analysis is launched without any sensors connected, the New Experiment box displays with options to choose which type of experiment you want to do.",
+        "subsections": [
+            {
+                "subsection_id": "1.II.1",
+                "subsection_title": "Sensor Data Collection",
+                "content": "Choose Sensor Data Collection to collect data from Vernier sensors including Go Direct sensors, Go!Temp and Go!Motion USB sensors, and wired LabQuest sensors.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap Sensor Data Collection to start collecting data from Vernier sensors",
+                        "ui_element": "Sensor Data Collection button",
+                        "tip": "If a sensor is connected via USB when launching, this is automatically selected"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "1.II.2",
+                "subsection_title": "Data Sharing",
+                "content": "Choose Data Sharing to receive wirelessly streamed sensor data from a Data Sharing source such as LabQuest 2, LabQuest 3, Logger Pro, or Graphical Analysis Pro.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap Data Sharing to connect to a data sharing source",
+                        "ui_element": "Data Sharing button",
+                        "tip": "Requires Graphical Analysis Pro features for GA Pro data sharing sources"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "1.II.3",
+                "subsection_title": "Manual Entry",
+                "content": "Choose Manual Entry to manually enter data into a data table for analysis of non-sensor data.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap Manual Entry to start an experiment where you manually enter data",
+                        "ui_element": "Manual Entry button",
+                        "tip": "Use this for data from textbooks, internet, or non-sensor experiments"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "1.II.4",
+                "subsection_title": "Other Options",
+                "content": "Access saved files and sample data from the New Experiment box.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap Open Saved Files to access previously saved Graphical Analysis files or CSV files",
+                        "ui_element": "Open Saved Files button"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Click or tap Sample Data to access sample experiment files",
+                        "ui_element": "Sample Data button",
+                        "tip": "Graphical Analysis Pro provides access to over 40 additional sample experiments"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "1.II.5",
+                "subsection_title": "Modifying Presentation Settings",
+                "content": "Customize the display with light or dark mode and adjust the scale factor for font sizes.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Click or tap Other Options on the top toolbar",
+                        "ui_element": "Other Options button"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Choose Presentation to access display settings",
+                        "ui_element": "Presentation menu item"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Toggle between light and dark mode as desired",
+                        "ui_element": "Toggle Dark Mode button",
+                        "tip": "If your device has a dark mode setting, Graphical Analysis uses that by default"
+                    },
+                    {
+                        "step_number": 4,
+                        "instruction": "Use the slider to change the font scale factor",
+                        "ui_element": "Scale Factor slider",
+                        "tip": "Reduce the Scale Factor when viewing multiple graphs to see more detail"
+                    }
+                ]
+            }
+        ],
+        "related_sections": [
+            "2.I",
+            "3.I",
+            "4",
+            "8.I"
+        ],
+        "keywords": [
+            "launch",
+            "new experiment",
+            "sensor",
+            "data sharing",
+            "manual entry",
+            "presentation",
+            "dark mode"
+        ]
+    },
+    {
+        "section_id": "1.III",
+        "section_title": "Quick Start to Sensor Data Collection and Analysis",
+        "content": "Follow these steps to quickly get started with basic sensor data collection and analysis.",
+        "subsections": [
+            {
+                "subsection_id": "1.III.1",
+                "subsection_title": "Basic Data Collection Steps",
+                "content": "A step-by-step guide to collecting and analyzing sensor data.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Launch Graphical Analysis app",
+                        "ui_element": "Application icon"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Select Sensor Data Collection and connect a sensor",
+                        "ui_element": "Sensor Data Collection button",
+                        "tip": "The default collection rate for the sensor is automatically set"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Click or tap the Collect button to start data collection",
+                        "ui_element": "Collect button",
+                        "tip": "During collection, the Collect button changes to a Stop button"
+                    },
+                    {
+                        "step_number": 4,
+                        "instruction": "Click or tap Stop to manually end data collection",
+                        "ui_element": "Stop button",
+                        "tip": "Collection stops automatically when the duration is reached"
+                    },
+                    {
+                        "step_number": 5,
+                        "instruction": "Click or tap Zoom to scale the graph to fit the data",
+                        "ui_element": "Zoom button",
+                        "tip": "You can also double-click or double-tap the graph to autoscale"
+                    },
+                    {
+                        "step_number": 6,
+                        "instruction": "Click or tap the graph to examine a point of interest",
+                        "ui_element": "Graph",
+                        "tip": "Drag the Examine line or click different points to explore your data"
+                    },
+                    {
+                        "step_number": 7,
+                        "instruction": "Click-and-drag or touch-and-drag across the graph to select a region for analysis",
+                        "ui_element": "Graph selection",
+                        "tip": "To analyze all data, you don't need to select a region"
+                    },
+                    {
+                        "step_number": 8,
+                        "instruction": "Click or tap Graph Tools and choose View Statistics",
+                        "ui_element": "Graph Tools menu",
+                        "tip": "Statistics information displays on the graph for the selected region"
+                    },
+                    {
+                        "step_number": 9,
+                        "instruction": "To fit a curve, click Graph Tools, choose Apply Curve Fit, then select the desired fit equation",
+                        "ui_element": "Curve Fit menu"
+                    },
+                    {
+                        "step_number": 10,
+                        "instruction": "Click Apply to display the curve fit equation and coefficients on the graph",
+                        "ui_element": "Apply button"
+                    }
+                ]
+            }
+        ],
+        "related_sections": [
+            "2",
+            "6"
+        ],
+        "keywords": [
+            "quick start",
+            "collect",
+            "analyze",
+            "zoom",
+            "examine",
+            "statistics",
+            "curve fit"
+        ]
+    },
+    {
+        "section_id": "1.IV",
+        "section_title": "Looking at the Graphical Analysis Tools",
+        "content": "Overview of the main tools and interface elements in Graphical Analysis.",
+        "subsections": [
+            {
+                "subsection_id": "1.IV.1",
+                "subsection_title": "Main Toolbar Tools",
+                "content": "The main toolbar provides access to essential functions for working with experiments.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Use the File menu to start a new experiment, open saved experiments, save work, or export graphs and data",
+                        "ui_element": "File menu"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Use Collect and Stop buttons to control data collection",
+                        "ui_element": "Collect/Stop buttons"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Click the Pro Authorization button to unlock Graphical Analysis Pro features",
+                        "ui_element": "GA Pro Authorization button"
+                    },
+                    {
+                        "step_number": 4,
+                        "instruction": "Use View Options to adjust display including graphs, data table, or sensor meters",
+                        "ui_element": "View Options button",
+                        "tip": "With GA Pro, you can also add videos"
+                    },
+                    {
+                        "step_number": 5,
+                        "instruction": "Access Other Options to modify font sizes, access user manual, and see what's new",
+                        "ui_element": "Other Options button"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "1.IV.2",
+                "subsection_title": "Graph Tools",
+                "content": "Tools for customizing and analyzing graph data.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Use x- and y-axis labels to change what data are plotted on your graph",
+                        "ui_element": "Axis labels"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Customize graph appearance by changing point symbols and trace colors",
+                        "ui_element": "Point symbol icon"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Access data analysis tools from Graph Tools menu including curve fits, statistics, and integral",
+                        "ui_element": "Graph Tools menu"
+                    },
+                    {
+                        "step_number": 4,
+                        "instruction": "Use Zoom to scale your graph to all data or a selection",
+                        "ui_element": "Zoom button"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "1.IV.3",
+                "subsection_title": "Sensor and Data Collection Tools",
+                "content": "Tools for configuring sensors and data collection parameters.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Use Mode to set data-collection mode and modify parameters like rate and duration",
+                        "ui_element": "Mode button"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Access sensor meters to change units and calibrate sensors",
+                        "ui_element": "Sensor meter"
+                    },
+                    {
+                        "step_number": 3,
+                        "instruction": "Use Sensor Setup to view connected sensors, connect wireless sensors, and modify sensor channels",
+                        "ui_element": "Sensor Setup button"
+                    }
+                ]
+            }
+        ],
+        "related_sections": [
+            "2",
+            "5",
+            "6",
+            "7"
+        ],
+        "keywords": [
+            "tools",
+            "toolbar",
+            "interface",
+            "graph tools",
+            "sensor setup",
+            "file menu"
+        ]
+    },
+    {
+        "section_id": "1.V",
+        "section_title": "Summarizing the Graphical Analysis Pro Features",
+        "content": "Overview of the advanced features available with a Graphical Analysis Pro subscription.",
+        "subsections": [
+            {
+                "subsection_id": "1.V.1",
+                "subsection_title": "Sample Experiments",
+                "content": "Graphical Analysis Pro includes over 40 sample experiments with data and videos for middle school, biology, chemistry, and physics.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Access sample experiments from the File menu or New Experiment screen",
+                        "ui_element": "Sample Experiments button",
+                        "tip": "Use these files as-is or as inspiration to create your own"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "1.V.2",
+                "subsection_title": "Data Sharing",
+                "content": "Stream sensor data to other devices running Graphical Analysis Pro via the internet.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Use Graphical Analysis Pro as a data sharing source to stream data to other devices",
+                        "ui_element": "Data Sharing button",
+                        "tip": "Requires a live internet connection"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "1.V.3",
+                "subsection_title": "Replaying Data Collection",
+                "content": "Replay time-based data collections with control over replay speed.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Use replay controls to review time-based data collections",
+                        "ui_element": "Enable Replay button",
+                        "tip": "Pair with synced videos for enhanced analysis"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "1.V.4",
+                "subsection_title": "Adding and Syncing Videos",
+                "content": "Add videos to experiment files and sync them with time-based data collections.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Add videos to illustrate how experiments were conducted",
+                        "ui_element": "Video import button"
+                    },
+                    {
+                        "step_number": 2,
+                        "instruction": "Sync videos with data collection for enhanced analysis",
+                        "ui_element": "Sync Video to Data button"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "1.V.5",
+                "subsection_title": "Customized Curve Fits",
+                "content": "Create custom curve fit functions beyond the standard options.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Create custom expressions for curve fits using mathematical functions",
+                        "ui_element": "Create Custom Fit button",
+                        "tip": "Examples include modified linear, modified quadratic, base-10 exponent, and Gaussian"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "1.V.6",
+                "subsection_title": "Custom Expression Calculated Columns",
+                "content": "Use mathematical functions to define custom expressions for calculated columns.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Create calculated columns using custom mathematical expressions",
+                        "ui_element": "Custom Expression option",
+                        "tip": "Available functions include square root, trigonometric, logarithmic, and more"
+                    }
+                ]
+            },
+            {
+                "subsection_id": "1.V.7",
+                "subsection_title": "FFT Analysis",
+                "content": "Perform Fast Fourier Transform analysis of time-based data.",
+                "procedures": [
+                    {
+                        "step_number": 1,
+                        "instruction": "Apply FFT to analyze frequencies in your data",
+                        "ui_element": "Apply FFT button",
+                        "tip": "Commonly used for microphone data and identifying electronic noise"
+                    }
+                ]
+            }
+        ],
+        "related_sections": [
+            "8"
+        ],
+        "keywords": [
+            "pro",
+            "premium",
+            "subscription",
+            "sample experiments",
+            "data sharing",
+            "replay",
+            "video",
+            "custom fit",
+            "fft"
+        ]
+    }
+]
